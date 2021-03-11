@@ -6,6 +6,7 @@ public class IfStatement {
             fileSend++;
             System.out.println("archivo enviado");
         }else{
+            fileSend--;
             System.out.println("archivo no enviado");
         }
     }
