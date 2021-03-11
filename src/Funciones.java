@@ -19,7 +19,7 @@ public class Funciones {
         // function
         System.out.println("pesos a dolares "+converToDolar(200,"m"));
 
-        con
+
     }
     private static double AreaCirculo(double r){
         return Math.PI * Math.pow(r,2);
