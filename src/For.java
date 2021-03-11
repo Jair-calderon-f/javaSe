@@ -1,12 +1,11 @@
-public class While {
+public class For {
     static  boolean isTurnOnLight=false;
     public static void main(String[] args) {
         turnOnOfflight();
-        int i=1;
-        while (isTurnOnLight && i<=10){
+        for (int i = 1; i <=10 ; i++) {
             printSOS();
-            i++;
         }
+        
     }
     public static void printSOS(){
         System.out.println("... ___ ...");

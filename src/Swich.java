@@ -1,4 +1,4 @@
-public class swich {
+public class Swich {
     public static void main(String[] args) {
     String colorModeSelected="Dar";
         switch (colorModeSelected){
