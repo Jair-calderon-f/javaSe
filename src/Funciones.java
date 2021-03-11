@@ -18,6 +18,8 @@ public class Funciones {
 
         // function
         System.out.println("pesos a dolares "+converToDolar(200,"m"));
+
+        con
     }
     private static double AreaCirculo(double r){
         return Math.PI * Math.pow(r,2);
@@ -28,6 +30,13 @@ public class Funciones {
     private static  double sphereVolumen(double r){
         return (4/3)*Math.PI * Math.pow(r,3);
     }
+
+    /**
+     * Descripcion:Funcion que especificando su moneda,convierte a dolares
+     * @param quiantity cantidad de dinero
+     * @param currency tipo de moneda: solo acepta pesos mexicanos o colombianos
+     * @return currency devieleve la cantidad en dolares
+     */
     private static double converToDolar(double quiantity,String currency){
         switch (currency){
             case "m":
